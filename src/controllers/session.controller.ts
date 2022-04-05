@@ -36,3 +36,7 @@ export async function createUserSessionHandler(req: Request, res: Response) {
         res.status(409).send(error.message);
     }
 }
+
+export async function getUserSessionHandler(req: Request, res: Response) {
+    
+}
